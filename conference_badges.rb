@@ -15,9 +15,9 @@ def assign_rooms(list)
   new_list = []
   #counter = 1
   
-  # list.each do |x|
-  #   new_list << "Hello, #{x}! You'll be assigned to room #{counter}!"
-  #   counter += 1
+    # list.each do |x|
+    #   new_list << "Hello, #{x}! You'll be assigned to room #{counter}!"
+    #   counter += 1
   
   list.each_with_index do |item, value|
     new_list << "Hello, #{item}! You'll be assigned to room #{value + 1}!"
